@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('api/', include('slack_clone_api.apps.core.urls'))
+    path('api/', include('chat_groups_api.apps.core.urls'))
 ]

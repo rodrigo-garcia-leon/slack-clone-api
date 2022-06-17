@@ -13,7 +13,7 @@ from channels.db import database_sync_to_async
 from django.core.asgi import get_asgi_application
 from django.contrib.auth.models import AnonymousUser
 from rest_framework.authtoken.models import Token
-from slack_clone_api.apps.core.routing import websocket_urlpatterns
+from chat_groups_api.apps.core.routing import websocket_urlpatterns
 
 
 @database_sync_to_async

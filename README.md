@@ -1,4 +1,4 @@
-# slack-clone-api
+# chat-groups-api
 
 Slack clone API built with Django.
 

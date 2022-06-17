@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'channels',
     'rest_framework',
     'rest_framework.authtoken',
-    'slack_clone_api.apps.core'
+    'chat_groups_api.apps.core'
 ]
 
 MIDDLEWARE = [
@@ -55,7 +55,7 @@ MIDDLEWARE = [
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'slack_clone_api.urls'
+ROOT_URLCONF = 'chat_groups_api.urls'
 
 # TEMPLATES = [
 #     {
@@ -73,7 +73,7 @@ ROOT_URLCONF = 'slack_clone_api.urls'
 #     },
 # ]
 
-ASGI_APPLICATION = 'slack_clone_api.asgi.application'
+ASGI_APPLICATION = 'chat_groups_api.asgi.application'
 
 
 # Database
