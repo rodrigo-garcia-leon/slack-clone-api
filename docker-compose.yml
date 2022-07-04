@@ -4,9 +4,6 @@ services:
     image: chat-groups-api
     ports:
       - "8000:8000"
-    links:
-      - postgres
-      - redis
     environment:
       POSTGRES_HOST: postgres
       REDIS_HOST: redis
